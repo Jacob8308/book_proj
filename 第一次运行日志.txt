@@ -1,0 +1,102 @@
+开始预约倒计时~0小时 0分钟 19秒……………
+开始预约倒计时~0小时 0分钟 18秒…………
+开始预约倒计时~0小时 0分钟 17秒…………
+开始预约倒计时~0小时 0分钟 16秒…………
+开始预约倒计时~0小时 0分钟 15秒…………
+开始预约倒计时~0小时 0分钟 14秒…………
+开始预约倒计时~0小时 0分钟 13秒…………
+开始预约倒计时~0小时 0分钟 12秒…………
+开始预约倒计时~0小时 0分钟 11秒…………
+开始预约倒计时~0小时 0分钟 10秒…………
+预约启动预约启动预约启动预约启动预约启动预约启动预约启动
+预约启动预约启动预约启动
+
+
+
+
+
+
+
+
+本次运行成功预约 0 次
+未成功预约满两次！
+仍然建议上平台进行结果查询！
+预约结束
+预约所用时间: 0:00:00.911560
+本次运行成功预约 0 次
+未成功预约满两次！
+仍然建议上平台进行结果查询！
+本次运行成功预约 0 次
+未成功预约满两次！
+仍然建议上平台进行结果查询！预约结束
+预约所用时间: 0:00:01.059796
+
+预约结束
+预约所用时间: 0:00:01.058786
+本次运行成功预约 0 次
+未成功预约满两次！
+仍然建议上平台进行结果查询！
+预约结束
+预约所用时间: 0:00:03.473089
+Exception in thread Thread-5:
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\webScripts\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "D:\Anaconda3\envs\webScripts\lib\threading.py", line 1286, in run
+    self.function(*self.args, **self.kwargs)
+  File "d:\code\Python\Book_proj\bmt_book.py", line 72, in main
+    site_dict = ask_site.json()
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\requests\models.py", line 910, in json
+本次运行成功预约 0 次
+未成功预约满两次！
+仍然建议上平台进行结果查询！
+预约结束
+预约所用时间: 0:00:04.116176
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\simplejson\__init__.py", line 525, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\simplejson\scanner.py", line 79, in scan_once
+    return _scan_once(string, idx)
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\simplejson\scanner.py", line 70, in _scan_once
+    raise JSONDecodeError(errmsg, string, idx)
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+本次运行成功预约 0 次
+未成功预约满两次！
+仍然建议上平台进行结果查询！
+预约结束
+预约所用时间: 0:00:04.385177
+本次运行成功预约 0 次
+未成功预约满两次！
+仍然建议上平台进行结果查询！
+预约结束
+预约所用时间: 0:00:06.107888
+本次运行成功预约 0 次
+未成功预约满两次！
+仍然建议上平台进行结果查询！
+预约结束
+预约所用时间: 0:00:06.368900
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "D:\Anaconda3\envs\webScripts\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "D:\Anaconda3\envs\webScripts\lib\threading.py", line 1286, in run
+    self.function(*self.args, **self.kwargs)
+  File "d:\code\Python\Book_proj\bmt_book.py", line 72, in main
+    site_dict = ask_site.json()
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\requests\models.py", line 910, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\simplejson\__init__.py", line 525, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\simplejson\decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\simplejson\decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\simplejson\scanner.py", line 79, in scan_once
+    return _scan_once(string, idx)
+  File "D:\Anaconda3\envs\webScripts\lib\site-packages\simplejson\scanner.py", line 70, in _scan_once
+    raise JSONDecodeError(errmsg, string, idx)
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
